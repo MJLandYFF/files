@@ -1,0 +1,51 @@
+{
+    "title": "ProjectFiles",
+    "description": "项目文档库",
+    "author": "yangfeifan",
+    "language": "zh-hans",
+    "styles": {
+        "website": "styles/website.css",
+        "ebook": "styles/ebook.css",
+        "pdf": "styles/pdf.css",
+        "mobi": "styles/mobi.css",
+        "epub": "styles/epub.css"
+    },
+
+    "plugins": [
+        "github-buttons@2.1.0",
+        "expandable-chapters",
+        "splitter",
+        "back-to-top-button",
+        "copy-code-button",
+        
+        "-lunr", "-search", "search-pro",
+        "tbfed-pagefooter"
+    ],
+
+    "pluginsConfig": {
+        
+        "github-buttons": {
+            "repo": "MJLandYFF/PlusBPM",
+            "types": [
+                "star"
+            ],
+            "size": "small"
+        },
+        
+        "tbfed-pagefooter": {
+     	    "copyright":"Copyright &copy PlusBPM.com 2019",
+      	    "modify_label": "Last Update",
+     	    "modify_format": "YYYY-MM-DD"
+  	    }
+    },
+    "links": {
+        
+        "sharing": {
+            "google": null,
+            "facebook": null,
+            "twitter": null,
+            "weibo": null,
+            "all": null
+        }
+    }
+}
